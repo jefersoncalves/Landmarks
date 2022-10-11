@@ -41,6 +41,8 @@
 		5EAEC33828F5A29A00584A79 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEC33728F5A29A00584A79 /* MapView.swift */; };
 		5EAEC33A28F5A2EB00584A79 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEC33928F5A2EB00584A79 /* FavoriteButton.swift */; };
 		5EAEC33C28F5A33200584A79 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAEC33B28F5A33200584A79 /* CircleImage.swift */; };
+		5EAEC33E28F5A45200584A79 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAEC33D28F5A45200584A79 /* hikeData.json */; };
+		5EAEC34028F5A45A00584A79 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAEC33F28F5A45A00584A79 /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +81,8 @@
 		5EAEC33728F5A29A00584A79 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		5EAEC33928F5A2EB00584A79 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		5EAEC33B28F5A33200584A79 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		5EAEC33D28F5A45200584A79 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		5EAEC33F28F5A45A00584A79 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +200,8 @@
 		5EAEC32C28F5A0F100584A79 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5EAEC33F28F5A45A00584A79 /* landmarkData.json */,
+				5EAEC33D28F5A45200584A79 /* hikeData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -280,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E66A78128F0F00300FE8113 /* Preview Assets.xcassets in Resources */,
+				5EAEC34028F5A45A00584A79 /* landmarkData.json in Resources */,
+				5EAEC33E28F5A45200584A79 /* hikeData.json in Resources */,
 				5E66A77E28F0F00300FE8113 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
